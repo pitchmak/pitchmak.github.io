@@ -1,17 +1,22 @@
 -
   title: "iOS Developer"
   company: "Zylun"
-  location: ""
+  location: "Cebu City, Philippines"
   startDate: ""
   endDate: ""
   description: ""
+  clients:
+    - "Teracode"
+    - "Fatelab"
+    - "Hoverstate"
 -
   title: "Freelance iOS Developer"
   company: "RisingHigh Studio"
-  location: ""
+  location: "London, UK"
   startDate: ""
   endDate: ""
   description: ""
+  clients: []
 -
   title: "Freelance iOS Developer"
   company: "Stuff.com"
@@ -19,17 +24,20 @@
   startDate: ""
   endDate: ""
   description: ""
+  clients: []
 -
   title: "iOS Developer"
   company: "Tamarind Technologies"
-  location: ""
+  location: "Chiang Mai, Thailand"
   startDate: ""
   endDate: ""
   description: ""
+  clients: []
 -
   title: "iOS Developer"
   company: "Aristo Solutions Technology Co., Ltd."
-  location: ""
+  location: "Chiang Mai, Thailand"
   startDate: ""
   endDate: ""
   description: ""
+  clients: []

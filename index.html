@@ -3,4 +3,24 @@ layout: default
 ---
 
 <div class="home">
+
+	<h1>{{ site.firstname }} {{ site.lastname }}</h1>
+	<h2>I'm iOS Developer in Chiang Mai, Thailand. Here is more about me.</h2>
+
+	<h3>Skills</h3>
+	<h4>{{ site.data.skills.title }}</h4>
+	<p>{{ site.data.skills.description }}</p>
+
+	<h3>Education</h3>
+	<h4>{{ site.data.education.university }}</h4>
+	<p>{{ site.data.education.degree }} {{ site.data.education.date }}</p>
+	<p>{{ site.data.education.description }}</p>
+
+	<h3>Experience</h3>
+	{% for job in site.data.experience %}
+		<h4>{{ job.company }}</h4>
+		<p>{{ job.title }}, {{ job.location }}</p>
+		<p>{{ job.description }}</p>
+	{% endfor %}
+
 </div>
