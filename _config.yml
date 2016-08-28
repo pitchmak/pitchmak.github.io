@@ -23,6 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://pitchmak.github.io" # the base hostname & protocol for your site
 twitter_username: pitchmak
 github_username:  pitchmak
+linkedin_username: pitchmak
 
 # Build settings
 markdown: kramdown
