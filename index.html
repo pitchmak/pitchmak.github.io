@@ -21,6 +21,15 @@ layout: default
 		<h4>{{ job.company }}</h4>
 		<p>{{ job.title }}, {{ job.location }} [{{ job.startDate }} - {{ job.endDate }}]</p>
 		<p>{{ job.description }}</p>
+        {% if job.clients %}
+        <h5>Clients<h5>
+        <ul>
+        {% for client in job.clients %}
+            <li>{{ client.title }} [{{ client.startDate }} - {{ client.endDate }}]</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+
 	{% endfor %}
 
 </div>
