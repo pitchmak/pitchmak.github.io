@@ -1,44 +1,41 @@
-<footer class="site-footer">
-  <div class="wrapper">
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>Contact Me</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          <li>
-            <a href="https://github.com/{{ site.github_username }}">
-                <i class="fa fa-github" aria-hidden="true"></i> <span class="username">{{ site.github_username }}</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-                <i class="fa fa-twitter" aria-hidden="true"></i> <span class="username">{{ site.twitter_username }}</span>
-            </a>
-          </li>
-          <li>
-            <a href="http://linkedin.com/in/{{ site.linkedin_username }}">
-                <i class="fa fa-linkedin" aria-hidden="true"></i> <span class="username">{{ site.linkedin_username }}</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-
-      <div class="footer-col">
-        <p class="text-muted">© {{ site.time | date: '%Y' }} All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a>. Code with ♥</p>
-      </div>
+<hr />
+<footer>
+    <div class="container">
+        <div class="col-md-12">
+            <h2>{{ site.title }}</h2>
+        </div>
+        <div class="col-md-4">
+            <ul class="contact-list list-unstyled">
+                <li>Contact Me</li>
+                <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <ul class="social-media-list list-unstyled">
+                <li>
+                    <a href="https://github.com/{{ site.github_username }}">
+                        <i class="fa fa-github" aria-hidden="true"></i> <span class="username">{{ site.github_username }}</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/{{ site.twitter_username }}">
+                        <i class="fa fa-twitter" aria-hidden="true"></i> <span class="username">{{ site.twitter_username }}</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://linkedin.com/in/{{ site.linkedin_username }}">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i> <span class="username">{{ site.linkedin_username }}</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <p>{{ site.description }}</p>
+        </div>
+        <div class="col-md-12">
+            <p class="text-muted text-center">© {{ site.time | date: '%Y' }} All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a>. Code with ♥</p>
+        </div>
     </div>
-
-  </div>
-
 </footer>
+<script src="{{ site.baseurl }}/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>

@@ -26,5 +26,7 @@ github_username:  pitchmak
 linkedin_username: pitchmak
 
 # Build settings
+sass:
+  sass_dir: bower_components/bootstrap-sass/assets/stylesheets
+  style: compress
 markdown: kramdown
-theme: minima
