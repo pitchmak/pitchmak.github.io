@@ -1,21 +1,28 @@
 -
+    company: "Teracode"
+    applications:
+        - title: "Site Survey"
+          description: ""
+        - title: "Janitorial"
+          description: ""
+-
     company: "Fatelab"
     applications:
         - title: "The Dime"
           description: "Video sharing app for selling your stuff."
         - title: "Six Degrees"
-          description: "location-based dating and social discovery application with match maker mode. This app is based on Swift."
+          description: "Location-based dating and social discovery application with match maker mode. This app is based on Swift."
         - title: "Oginx"
           description: "Music + Video sharing/editing app. This app is based on Swift."
 -
     company: "Hoverstate"
     applications:
         - title: "Coseal and Tachosil"
-          description: "an iPad apps designed to provide the sales team with an interactive tool to present their product to customers. The application features product slides that highlight key product properties, allows instant access to case and surgical videos, and the ability to respond to customers via email, providing them with marketing materials and other educational content. New approved content is automatically pushed to the app when entered via a Wordpress based content management system."
+          description: "an iPad apps designed to provide the sales team with an interactive tool to present their products to customers. The application features product slides that highlight key product properties, allows instant access to case and surgical videos, and the ability to respond to customers via email, providing them with marketing materials and other educational content. New approved content is automatically pushed to the app when entered via a Wordpress based content management system."
           website: "https://www.hoverstate.com/project/mobile-sales"
         - title: "First!"
           description: "an iPhone app gives users the ability to sign up to receive offers from selected providers. Users will receive notifications about promotions from businesses that offer beauty and health services using Urban Airship, and allow them to instantly book appointments from their phones when they become available. Through their phones, users can also easily customize their preferences and select the offering categories they would like to receive."
-          website: "https://itunes.apple.com/us/app/wallpaper-studio-pro-hd-themes/id474201918?mt=8"
+          website: "https://itunes.apple.com/us/app/yours-first!/id603332104?ls=1&mt=8"
         - title: "Plan Showcase"
           description: "one of Hoverstate’s Health Insurance Mobile Suite gives brokers the ability to access and distribute the latest sales information on the spot with their mobile devices. Users can filter and refine plan criteria based on the client’s needs and present them with options through a beautiful iPad interface. Brokers have the ability to easily sort through plans available in different regions and different audiences, and hide and favourite plans based on their presentation needs. "
           website: "https://www.hoverstate.com/project/health-insurance-plan-showcase"
