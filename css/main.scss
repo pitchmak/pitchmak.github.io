@@ -7,6 +7,7 @@ $icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 $body-bg: #fdfdfd;
 
 body { padding-top: 70px; }
+.icon-site-logo { padding-top: 1px !important; }
 .resume { max-width: 720px; }
 
 @import "bootstrap";
