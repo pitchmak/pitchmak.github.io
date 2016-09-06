@@ -13,19 +13,23 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Hi, I'm Pitchmak.
+title: Pitchmak Sareerat - iOS Developer
 firstname: Pitchmak
 lastname: Sareerat
 email: pitchmak@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I am an iOS Developer. I love to make things - especially mobile apps.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://pitchmak.github.io" # the base hostname & protocol for your site
-twitter_username: pitchmak
+url: "https://pitchmak.github.io" # the base hostname & protocol for your site
+author: "Pitchmak Sareerat"
+twitter:
+  username: pitchmak
 github_username:  pitchmak
 linkedin_username: pitchmak
 
 # Build settings
+gems:
+  - jekyll-seo-tag
 sass:
   sass_dir: bower_components/bootstrap-sass/assets/stylesheets
   style: compress

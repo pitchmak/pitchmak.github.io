@@ -131,6 +131,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-seo-tag
 
 RUBY VERSION
    ruby 2.2.1p85
