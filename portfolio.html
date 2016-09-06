@@ -1,0 +1,29 @@
+---
+layout: default
+title: Portfolio
+permalink: /portfolio/
+---
+
+<div class="page-header">
+    <h1>Portfolio</h1>
+    <p class="lead">My name is Pitchmak Sareerat. I am an iOS developer and this is my portfolio.</p>
+</div>
+
+{% for client in site.data.portfolio %}
+    <h2>{{ client.company }}</h2>
+    <div class="row">
+        {% for app in client.applications %}
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="" alt="">
+                    <div class="caption">
+                        <h3>{{ app.title }}</h3>
+                        <p>{{ app.description }}</p>
+                        {% if app.website %} <p><a href="{{ app.website }}" class="btn btn-default" role="button" target="_blank">Learn more</a></p> {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <hr />
+{% endfor %}

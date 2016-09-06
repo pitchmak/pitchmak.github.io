@@ -5,9 +5,18 @@
 
 $icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 $body-bg: #fdfdfd;
+$jumbotron-padding: 80px;
+$jumbotron-heading-font-size: 48px;
 
 body { padding-top: 70px; }
 .icon-site-logo { padding-top: 1px !important; }
-.resume { max-width: 720px; }
+footer { padding: 50px 0px; }
+
+.profile-picture { max-width: 300px; }
+.jumbotron { margin-bottom: 0px !important; }
+
+.resume { max-width: 750px; }
+
+.thumbnail { height: 370px; }
 
 @import "bootstrap";

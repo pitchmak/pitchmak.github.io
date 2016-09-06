@@ -1,53 +1,11 @@
 ---
-layout: default
+layout: landing
 ---
 
-<div class="resume center-block">
-    <div class="page-header">
-        <h1>{{ site.firstname }} {{ site.lastname }}</h1>
-        <p class="lead">I'm iOS Developer from Chiang Mai, Thailand. I'm looking for new opportunities. Here is more about me.</p>
+<div class="jumbotron">
+    <div class="container">
+        <img src="/images/profile-picture.jpg" alt="" class="profile-picture center-block img-circle" />
+        <h1 class="text-center">{{ site.firstname }} {{ site.lastname }}</h1>
+        <p class="text-center">iOS Developer</p>
     </div>
-
-    <h3>Skills</h3>
-    <h4>{{ site.data.skills.title }}</h4>
-    <p>{{ site.data.skills.description }}</p>
-
-    <hr />
-
-    <h3>Education</h3>
-    <div class="clearfix">
-        <div class="pull-left">
-            <h4>{{ site.data.education.university }}</h4>
-        </div>
-        <div class="pull-right">
-            <h4 class="text-right">{{ site.data.education.location }}</h4>
-        </div>
-    </div>
-    <p>{{ site.data.education.degree }}, {{ site.data.education.year }}</p>
-    <p>{{ site.data.education.description }}</p>
-
-    <hr />
-
-    <h3>Experience</h3>
-    {% for job in site.data.experience %}
-        <div class="clearfix">
-            <div class="pull-left">
-                <h4>{{ job.company }}</h4>
-                <h5>{{ job.position }}</h5>
-            </div>
-            <div class="pull-right">
-                <h4 class="text-right">{{ job.location }}</h4>
-                <p class="text-right">{{ job.startDate }} - {{ job.endDate }}</p>
-            </div>
-        </div>
-        <p>{{ job.description }}</p>
-        {% if job.clients %}
-        <p>
-            <strong>Clients: </strong>
-            {% for client in job.clients %}
-                <a href="{{ client.website }}" target="_blank">{{ client.title }}</a>
-            {% endfor %}
-        </p>
-        {% endif %}
-    {% endfor %}
 </div>
